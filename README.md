@@ -1,6 +1,7 @@
-# Módulo HTML 5
-Exercícios praticados no módulo de HTML do curso da T.EX.
+# Módulos HTML 5 e CSS 3
+Exercícios praticados nos módulos de HTML e CSS do curso da T.EX.
 
+## HTML
 - Semântica
 - Formatação de HTML
 - Inserção de imagens, vídeos e áudios
@@ -15,3 +16,9 @@ Exercícios praticados no módulo de HTML do curso da T.EX.
   - Dropdown list
   - Tipos de inputs: date, color, checkbox e radio 
 - Single Page
+
+## CSS
+
+- Hierarquia
+- Estilos de texto
+  
