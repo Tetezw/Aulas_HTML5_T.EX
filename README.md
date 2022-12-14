@@ -21,4 +21,7 @@ Exercícios praticados nos módulos de HTML e CSS do curso da T.EX.
 
 - Hierarquia
 - Estilos de texto
+- Seletores e atributos
+- Prefixos
+- Fontes
   

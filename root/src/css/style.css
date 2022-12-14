@@ -1,5 +1,23 @@
 /*CSS STYLES*/
 
+/* LOGO */
+
+div.logo {
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 0.5rem;
+}
+
+div.logo span {
+    font-family: 'Lobster', cursive;
+    font-size: 75%;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
 h2 {
     color: blue;
 }
@@ -7,9 +25,20 @@ h2 {
 .h2Color {
     color: gray;
     text-align: right;
+    font-family: 'Courier New', Courier, monospace;
     /* direction: rtl;
     unicode-bidi: bidi-override;  */
 }
+
+article#pratos p{
+    color: darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article#pratos table td p{
+    color: black;
+}
+
 
 header img{
     vertical-align: middle;
@@ -41,4 +70,46 @@ p {
 p::first-letter{
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+h2+span{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+header > img {
+    filter: invert(100);
+}
+
+header div.slogan {
+    background-color: black;
+    color: #fff;
+    /* top right bottom left */
+    padding: 0 0 6px 0;
+}
+
+article#pratos p:active ~ table {
+    border: dashed 2px green;
+}
+
+article#pratos p:active {
+    color: red;
+}
+
+input[type=radio]{
+    accent-color:green;
+}
+
+input[type=checkbox]:checked + span {
+    color: blue;
+}
+
+textarea {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+
 }

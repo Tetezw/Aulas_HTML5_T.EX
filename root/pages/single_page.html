@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosso Restaurante</title>
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <style>
     body {
         width: 80%;
         margin: auto;
-        font-size: 1.3em;
+        font-size: 1.3rem;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
             serif;
-        line-height: 1.3em;
+        line-height: 1.3rem;
         border: 1px dashed #ccc;
         padding: 10px;
     }
@@ -24,7 +27,7 @@
     }
 
     header * {
-        font-size: 2em;
+        font-size: 2rem;
         font-weight: 700;
     }
     header nav ul li {
@@ -41,14 +44,19 @@
     }
 
     select {
-        font-size: 0.88em;
+        font-size: 0.88rem;
     }
 </style>
 <body>
     <header>
-        <img src="../images/svg/cenoura.svg" alt="Cenoura" width="30" />
-        <span>Nosso restaurante</span><br><br>
-        <img src="../images/salmon-1312372.jpg" alt="" style="width:  100%;">
+        <div class="logo">
+            <img src="../images/svg/cenoura.svg" alt="Cenoura" width="30" />
+            <span>Nosso restaurante</span>
+        </div>
+        <div class="slogan">
+            <img src="../images/salmon-1312372.jpg" alt="" style="width:  100%;">
+            <p class="lobster">Seu melhor lugar e seu melhor momento</p>
+        </div>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre nós</a> |
@@ -82,7 +90,13 @@
             </article>
             <article id="pratos">
                 <h2>Aprecie nossos pratos especiais</h2>
+                <span>A qualidade é nosso lema</span>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nostrum inventore reprehenderit aut officia incidunt quod veniam sapiente qui sint necessitatibus est ipsa ullam possimus, quis voluptatibus ipsum cum, asperiores eius ducimus quaerat eum. Unde quis cupiditate eius et optio placeat, repudiandae iure sapiente autem corrupti adipisci fuga, atque, voluptas quibusdam ullam magnam asperiores nesciunt eaque. Illo porro quas, dolorum amet omnis recusandae tempora hic, iste inventore cum quis reiciendis commodi ducimus incidunt sint! Quas facere nihil itaque ipsa quisquam.</p>
+                <ul>
+                    <li>Para sua festa de aniversário</li>
+                    <li>Para a festa da sua empresa</li>
+                    <li>Para seu final de semana com seus amigos</li>
+                </ul>
                 <table>
                     <tr>
                         <td width="25%">
@@ -126,6 +140,7 @@
             </article>
             <article id="reservas">
                 <h2>Reserve nosso espaço para seu aniversário</h2>
+                <span>Descontos incríveis para você fazer a sua reserva</span>
                 <form action="" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <legend>Preencha todos os campos:</legend>
@@ -186,9 +201,9 @@
                             <hr>
                             <li>
                                 <label for="servicos">Serviços adicionais</label> <br>
-                                <input style="accent-color:red;" type="checkbox" name="servicos" id="musico" checked> Músico
-                                <input type="checkbox" name="servicos" id="danca_do_ventre"> Dança do ventre
-                                <input type="checkbox" name="servicos" id="magico"> Mágico
+                                <input style="accent-color:red;" type="checkbox" name="servicos" id="musico" checked> <span>Músico</span>
+                                <input type="checkbox" name="servicos" id="danca_do_ventre"> <span>Dança do ventre</span>
+                                <input type="checkbox" name="servicos" id="magico"> <span>Mágico</span>
                 
                             </li>
                             <hr>
